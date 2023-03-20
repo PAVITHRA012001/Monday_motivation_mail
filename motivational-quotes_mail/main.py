@@ -2,8 +2,8 @@ from datetime import datetime
 import smtplib
 import random
 
-my_email="kimme8733@gmail.com"
-password="smhpcbgnteawzgmp"
+my_email="xxx@gmail.com"
+password="xxx"
 
 
 def email_sender():
@@ -16,7 +16,7 @@ def email_sender():
         server.login(user=my_email, password=password)
         server.sendmail(
             from_addr=my_email,
-            to_addrs="ppavi0932@gmail.com",
+            to_addrs="xxx@gmail.com",
             msg=f"Subject:Today's Motivational Quote\n\n{quote}"
         )
 
